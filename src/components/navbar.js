@@ -11,25 +11,33 @@ const Navbar = ({ view, setView }) => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                        <a className="nav-link active" href="#"
+                        <a 
+                        onClick={() => setView('about')}
+                        className={`nav-link ${view === 'about' ? 'active fw-bold' : ''}`} href="#"
                         >
                             <i className="bi bi-person-circle"></i> About
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#"
+                        <a 
+                        onClick={() => setView('portfolio')}
+                        className={`nav-link ${view === 'portfolio' ? 'active fw-bold' : ''}`} href="#"
                         >
                             <i className="bi bi-palette-fill"></i> Portfolio
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#"
+                        <a 
+                        onClick={() => setView('contact')}
+                        className={`nav-link ${view === 'contact' ? 'active fw-bold' : ''}`} href="#"
                         >
                             Contact
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link"
+                        <a 
+                        onClick={() => setView('resume')}
+                        className={`nav-link ${view === 'resume' ? 'active fw-bold' : ''}`} href="#"
                         >
                             Resume
                         </a>

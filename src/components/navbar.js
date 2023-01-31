@@ -1,9 +1,8 @@
 const Navbar = ({ view, setView }) => {
 
-    console.log(view, setView)
     return (
         <nav className="navbar navbar-expand-lg bg-primary">
-            <div className="container-fluid">
+            <div className="container">
                 <a className="navbar-brand" href="#">Peter Geipel's Portfolio</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

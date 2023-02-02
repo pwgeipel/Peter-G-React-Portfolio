@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.e23c30d6.css","mappings":"AAAA,QAGI,QAAQ,CAFR,cAAe,CACf,UAEJ","sources":["index.css"],"sourcesContent":[".footer {\n    position: fixed;\n    width: 100%;\n    bottom: 0\n}"],"names":[],"sourceRoot":""}

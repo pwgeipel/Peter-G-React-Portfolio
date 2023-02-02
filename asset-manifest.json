@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/peter-g-react-portfolio/static/css/main.e23c30d6.css",
+    "main.js": "/peter-g-react-portfolio/static/js/main.647979df.js",
+    "static/js/787.04d63afc.chunk.js": "/peter-g-react-portfolio/static/js/787.04d63afc.chunk.js",
+    "static/media/selfie.jpg": "/peter-g-react-portfolio/static/media/selfie.1f9d088add3986b6447b.jpg",
+    "index.html": "/peter-g-react-portfolio/index.html",
+    "main.e23c30d6.css.map": "/peter-g-react-portfolio/static/css/main.e23c30d6.css.map",
+    "main.647979df.js.map": "/peter-g-react-portfolio/static/js/main.647979df.js.map",
+    "787.04d63afc.chunk.js.map": "/peter-g-react-portfolio/static/js/787.04d63afc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e23c30d6.css",
+    "static/js/main.647979df.js"
+  ]
+}

@@ -1,5 +1,5 @@
-const Project = props => {
-    return 'Project'
+function Project () {
+    
 }
 
 export default Project

@@ -6,7 +6,7 @@ function ResumePage() {
             <section>
                 <h1>Resume</h1>
                     <p>Download resume 
-                        <a href="../public/sampleResume.pdf" download={true}>
+                        <a href="../../public/sampleResume.pdf" download={true}>
                             here
                         </a>
                     </p>

@@ -3,13 +3,13 @@ export const projects = [
         {
             title: "Shroomies",
             subtitle: "A Full-stack App",
-            image: "./assets/morel (1).jpeg",
+            image: "../assets/morel (1).jpeg",
             link: "#",
             github: "#"
         },{
             title: "Project 2",
             subtitle: "A Full-stack App",
-            image: "./assets/cookies.jpeg",
+            image: "../../assets/cookies.jpeg",
             link: "#",
             github: "#"
         },{

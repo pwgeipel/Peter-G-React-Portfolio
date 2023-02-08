@@ -10,28 +10,32 @@ function PortfolioPage() {
 
         //     </div>
         // </Container>
-        <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="col-6 col-sm-12">
-              <div className="flex-row">
-                <img
-                  src={project.image}
-                />
-                <div className="fs-2">
-                  <h2 className="fs-4">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="fs-3">
-                    {project.title}
-                  </h1>
-                </div>
-              </div>
-            </a>
-          ))}
-        </div>
+        <>
+          <Container className="mt-5">
+            <div className="flex flex-wrap -m-4">
+              {projects.map((project) => (
+                <a
+                  href={project.link}
+                  key={project.image}
+                  className="col-6 col-sm-12">
+                  <div className="flex-row">
+                    <img
+                      src={project.image}
+                    />
+                    <div className="fs-2">
+                      <h2 className="fs-4">
+                        {project.subtitle}
+                      </h2>
+                      <h1 className="fs-3">
+                        {project.title}
+                      </h1>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </Container>
+        </>
     )
 }
 

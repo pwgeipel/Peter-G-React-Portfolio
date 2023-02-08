@@ -19,8 +19,10 @@ function PortfolioPage() {
                   key={project.image}
                   className="col-6 col-sm-12">
                   <div className="flex-row">
-                    <img
-                      src={project.image}
+                  <img
+                        src={require(`../assets/${project.image}`)}
+                        // alt={name}
+                        className="img-fluid"
                     />
                     <div className="fs-2">
                       <h2 className="fs-4">

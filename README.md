@@ -15,17 +15,17 @@ This application is a portfolio of Peter Geipel, including a brief bio, a portfo
 
 ## Installation
 
-To install this page, use `git clone` to clone the repo to your local machine.  Then, install the neccesary dependencies using `npm i`.
-
-After the dependencies have been installed, enter `npm start` in the command line to open it.
-
-Alternatively, the application may be open by using the link below.
+To install this app, clone the repo to your local machine using `git clone https://github.com/pwgeipel/mern-book-search-engine.git` on the command line.  Next, run `npm i` to install the neccesary dependencies.
 
 ## Usage
 
-From the any page, you may use the links in the navbar to navigate to the About, Portfolio, Contact, and Resume pages.  You may also click on the icons in the footer to be directed to the author's Github, StackedOverflow, and LinkedIn profiles.
+Once the repo and dependencies have been installed locally, run `npm start` in the command line to open the application.
 
-On the Contact page, you may send a message to the application's author by including your name, email, and a brief message.
+Users may search for books in the search bar without being logged in.
+
+To save books, a user will be required to either create an account or login to their existing account.
+
+Books that are saved to a user's list may also be removed later.
 
 ## License
 

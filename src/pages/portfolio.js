@@ -17,7 +17,7 @@ function PortfolioPage() {
                 <a
                   href={project.link}
                   key={project.image}
-                  className="col-6 col-sm-12">
+                  className="col-md-6 col-sm-12">
                   <div className="flex-row">
                   <img
                         src={require(`../assets/${project.image}`)}

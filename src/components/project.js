@@ -3,19 +3,20 @@ export const projects = [
         {
             title: "Shroomies",
             subtitle: "A Full-stack App",
-            image: "../assets/morel.jpeg",
+            image: "morel.jpeg",
             link: "#",
             github: "#"
-        },{
+        },
+        {
             title: "Project 2",
             subtitle: "A Full-stack App",
-            image: "../assets/cookies.jpeg",
+            image: "cookies.jpeg",
             link: "#",
             github: "#"
         },{
             title: "Project 3",
             subtitle: "A Full-stack App",
-            image: "../assets/onions.jpeg",
+            image: "onions.jpeg",
             link: "#",
             github: "#"
         },{
@@ -27,13 +28,13 @@ export const projects = [
         },{
             title: "Project 5",
             subtitle: "A Full-stack App",            
-            image: "../assets/macarons-small.jpeg",
+            image: "macarons-small.jpeg",
             link: "#",
             github: "#"
         },{
             title: "Project 6",
             subtitle: "A Full-stack App",            
-            image: "../assets/320.png",
+            image: "320.png",
             link: "#",
             github: "#"
         },
